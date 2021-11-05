@@ -1,0 +1,86 @@
+# Default values for horovod.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+useHostNetwork: false
+useHostPID: false
+
+resources: {}
+#   limits:
+#     cpu: 1
+#     nvidia.com/gpu: 1
+#   requests:
+#     cpu: 1
+#     nvidia.com/gpu: 1
+
+ssh:
+  port: 22
+  useSecrets: true
+  hostKey: |-
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    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
+    -----END OPENSSH PRIVATE KEY-----
+
+  hostKeyPub: |-
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDegtWIMjTUAlw3ZGiy55QxWie4BudNL8OX45geFaoEueELNSo+Q0iZe8bl0fjdxLuEyXcrlL/ISj7+7f6bGDYT0Nx4FqHnlhsn5DxcJOAeK5VM4stZ38kJcE705mYUSR1v+lXFVYZOlmWSdlpMV5ALhvsW0GkegRxxKKI4qoZaRldNC6Z6wHl50YGgwGcXhGY8+ToeePD2181Vz/lNkZlRcmE4FW0d8FMGlHqsya78xc4bdoQlbpizPSXJ9i/Wt+DXNx/qAVuXINgHYahb7dC0LiHErE1c50iNqVL0JiWceEZaW/hdzkkz4AbMgTVEcOA6JI20vcu45PAONNGRDwZEgezMLikVnlxIMD1ZoDBFQ9j+tccrCSuJ3iOo7qXN4Z1UICe2Rbyt79Oz30dOheL+oTpyicjjTuOxn7UPDzt7wDfY+3RxtDn+gADgV5Z8GpfcIgpSUBqKJMG8jlM0ZIyFgOe1ajnSHDXmAim5MzdRJHn43TPLZGehycFlqEqPqxM=
+
+worker:
+  number: 2
+  podManagementPolicy: Parallel
+  image:
+    repository: uber/horovod
+    tag: 0.12.1-tf1.8.0-py3.5
+    pullPolicy: IfNotPresent
+#    repository: horovod/horovod-cpu
+#    tag: latest
+#    pullPolicy: IfNotPresent
+
+master:
+  image:
+    repository: uber/horovod
+    tag: 0.12.1-tf1.8.0-py3.5
+    pullPolicy: IfNotPresent
+#    repository: horovod/horovod-cpu
+#    tag: latest
+#    pullPolicy: IfNotPresent
+  args:
+    - "mpiexec -n 3 --hostfile /horovod/generated/hostfile --mca orte_keep_fqdn_hostnames t --allow-run-as-root --display-map --tag-output --timestamp-output sh -c 'LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/targets/x86_64-linux/lib/stubs python /examples/tensorflow_mnist.py'"
+#  - "mpiexec -n 3 --hostfile /horovod/generated/hostfile --mca orte_keep_fqdn_hostnames t --allow-run-as-root --display-map --tag-output --timestamp-output sh -c 'LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/targets/x86_64-linux/lib/stubs python /examples/tensorflow_mnist.py'"
+#  - "horovodrun -np 3 -hostfile /horovod/generated/hostfile python tensorflow2/tensorflow2_mnist.py"
+#  - "horovodrun -np 2 -H horovod-0.horovod:1 horovod-1.horovod:1 python tensorflow2/tensorflow2_mnist.py"
+#    - "sleep infinity"
