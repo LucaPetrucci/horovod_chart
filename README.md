@@ -5,7 +5,7 @@ This command packages a chart into a versioned chart archive file. If a path is 
 Versioned chart archives are used by Helm package repositories.
 
 ```
-helm package charts/horovod --destination=charts/ --version=vXYZ
+helm package charts/horovod --destination=charts/ --version=XYZ
 ```
 
 Read the current directory and generate an index file based on the charts found.
