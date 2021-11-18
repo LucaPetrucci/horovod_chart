@@ -16,4 +16,4 @@ This tool is used for creating an 'index.yaml' file for a chart repository. To s
 helm repo index charts
 ```
 
->> **Remember:** use git to update this repo
+> **Remember:** use git to update this repo
