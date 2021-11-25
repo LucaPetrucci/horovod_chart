@@ -6,6 +6,7 @@ Versioned chart archives are used by Helm package repositories.
 
 ```
 helm package charts/horovod --destination=charts/ --version=XYZ
+helm package charts/spark --destination=charts
 ```
 
 Read the current directory and generate an index file based on the charts found.
