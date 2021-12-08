@@ -3,24 +3,10 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2021-12-07T12:59:12.360466834+01:00"
+    created: "2021-12-08T11:33:21.879927137+01:00"
     deprecated: true
     description: DEPRECATED - A Helm chart for deploying Horovod
-    digest: e702b7bf9606fdd2e82dc0ce6d26119cb107f1e0423a968fc327479cbed480da
-    home: https://eng.uber.com/horovod/
-    name: horovod
-    sources:
-    - https://github.com/uber/horovod
-    - https://github.com/uber/horovod/blob/master/docs/docker.md
-    urls:
-    - horovod-3.5.0.tgz
-    version: 3.5.0
-  - apiVersion: v1
-    appVersion: 0.15.0
-    created: "2021-12-07T12:59:12.359386028+01:00"
-    deprecated: true
-    description: DEPRECATED - A Helm chart for deploying Horovod
-    digest: 05298b37ef9442faa6e72d7131f7e82db6fe2d0c4f288967fb5abf4c0e202029
+    digest: a5f0368ccc529bb9c21092b67989102a09a08fb9ebb784e5bbf8a439d169bffb
     home: https://eng.uber.com/horovod/
     name: horovod
     sources:
@@ -34,7 +20,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2021-12-07T12:59:12.367988675+01:00"
+    created: "2021-12-08T11:33:21.888096203+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -42,7 +28,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: Spark is a fast and general-purpose cluster computing system.
-    digest: fe206ab70f1642f04dce75895bff7cba264e7e69013913b152cba74137a521ad
+    digest: 03b58b131eca2eb66a20b742f42979e7f870bcc80d615129354ec811099f798c
     home: https://github.com/bitnami/charts/tree/master/bitnami/spark
     icon: https://bitnami.com/assets/stacks/spark/img/spark-stack-220x234.png
     keywords:
@@ -56,6 +42,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-spark
     - https://spark.apache.org/
     urls:
-    - spark-5.7.10.tgz
-    version: 5.7.10
-generated: "2021-12-07T12:59:12.357931304+01:00"
+    - spark-6.0.0.tgz
+    version: 6.0.0
+generated: "2021-12-08T11:33:21.878098737+01:00"
