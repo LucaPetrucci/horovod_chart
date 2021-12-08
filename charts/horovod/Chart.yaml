@@ -1,0 +1,10 @@
+apiVersion: v1
+appVersion: 0.15.0
+deprecated: true
+description: DEPRECATED - A Helm chart for deploying Horovod
+home: https://eng.uber.com/horovod/
+name: horovod
+sources:
+- https://github.com/uber/horovod
+- https://github.com/uber/horovod/blob/master/docs/docker.md
+version: 3.0.0

@@ -1,0 +1,24 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-cm
+  labels:
+    chart: {{ .Chart.Name }}
+    platform: {{ .Release.Name }}
+data:
+  executor.config: |
+  # insert here
+---
+## ADD IN volumes:
+#       volumes:
+#        - name: "executor-volume"
+#          configMap: 
+#            name: {{ .Release.Name }}-{{ .Chart.Name }}-cm
+#            items:
+#            - key: executor.config
+#              path: executor.config
+## ADD IN volumeMounts:
+#          volumeMounts:
+#            - name: executor-volume
+#              mountPath: /tmp/executor
