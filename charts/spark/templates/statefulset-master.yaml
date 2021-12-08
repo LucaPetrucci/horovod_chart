@@ -148,8 +148,6 @@ spec:
             - name: cluster
               containerPort: {{ .Values.master.clusterPort }}
           volumeMounts:
-            - name: executor-volume
-              mountPath: /tmp/executor
             {{- if .Values.master.configurationConfigMap }}
             - name: config
               mountPath: '/opt/bitnami/spark/conf/'
@@ -256,12 +254,6 @@ spec:
           resources: {{- toYaml .Values.master.resources | nindent 12 }}
           {{- end }}
       volumes:
-        - name: "executor-volume"
-          configMap: 
-            name: {{ .Release.Name }}-{{ .Chart.Name }}-cm
-            items:
-            - key: executor.config
-              path: executor.config
         {{- if .Values.master.configurationConfigMap }}
         - name: config
           configMap:
