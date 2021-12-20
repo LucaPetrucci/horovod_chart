@@ -3,7 +3,7 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2021-12-08T11:33:21.879927137+01:00"
+    created: "2021-12-20T10:49:55.621532312+01:00"
     deprecated: true
     description: DEPRECATED - A Helm chart for deploying Horovod
     digest: a5f0368ccc529bb9c21092b67989102a09a08fb9ebb784e5bbf8a439d169bffb
@@ -20,7 +20,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2021-12-08T11:33:21.888096203+01:00"
+    created: "2021-12-20T10:49:55.630392178+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -28,7 +28,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: Spark is a fast and general-purpose cluster computing system.
-    digest: 03b58b131eca2eb66a20b742f42979e7f870bcc80d615129354ec811099f798c
+    digest: dad1a068bc635d24ab96a7dbfaccd99161a031b634e182f41ef36d9834f24a9f
     home: https://github.com/bitnami/charts/tree/master/bitnami/spark
     icon: https://bitnami.com/assets/stacks/spark/img/spark-stack-220x234.png
     keywords:
@@ -44,4 +44,15 @@ entries:
     urls:
     - spark-6.0.0.tgz
     version: 6.0.0
-generated: "2021-12-08T11:33:21.878098737+01:00"
+  tesk:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2021-12-20T10:49:55.631364626+01:00"
+    description: A TESK-EXILIR Helm chart for Kubernetes
+    digest: f7221f021e04c298ada0470710cb60796903476632e44a0020e246c4b9d01aeb
+    name: tesk
+    type: application
+    urls:
+    - tesk-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-12-20T10:49:55.619434575+01:00"
