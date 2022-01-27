@@ -43,5 +43,5 @@ resources: {}
 worker:
   number: 2
   image:
-    repository: ludovicofunari/horovod
+    repository: platformedtasks/horovod
     tag: latest

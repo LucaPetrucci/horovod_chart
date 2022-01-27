@@ -1,6 +1,12 @@
 apiVersion: v2
 appVersion: dev
-description: A TESK-EXILIR Helm chart for Kubernetes
+description: A Helm chart for deploying a tailored version of TESK for PLAS platform
+home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/tesk
+keywords:
+- plas
+- tesk
 name: tesk
-type: application
+sources:
+- https://github.com/PlatformedTasks/Documentation
+- https://github.com/elixir-cloud-aai/TESK/tree/master/charts/tesk
 version: 1.0.0
