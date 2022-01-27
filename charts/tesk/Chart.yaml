@@ -1,0 +1,6 @@
+apiVersion: v2
+appVersion: dev
+description: A TESK-EXILIR Helm chart for Kubernetes
+name: tesk
+type: application
+version: 1.0.0
