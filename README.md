@@ -1,4 +1,4 @@
-# Helm Charts for PLAS 
+# Helm Charts for the PLAS project
 
 In this repository you can find all the Helm charts used by the [PLAS project](https://github.com/PlatformedTasks/Documentation).
 
