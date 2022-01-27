@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  horovod:
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-01-27T15:28:22.37324081Z"
+    deprecated: true
+    description: DEPRECATED - A Helm chart for deploying Horovod
+    digest: 54248f48ab6a06839022f09fb9813fe1d12552b12adde57885e8ab41bb28f105
+    home: https://eng.uber.com/horovod/
+    name: horovod
+    sources:
+    - https://github.com/uber/horovod
+    - https://github.com/uber/horovod/blob/master/docs/docker.md
+    urls:
+    - https://github.com/PlatformedTasks/PLAS-charts/releases/download/horovod-3.0.0/horovod-3.0.0.tgz
+    version: 3.0.0
+  spark:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 3.2.0
+    created: "2022-01-27T15:28:22.621116941Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Spark is a fast and general-purpose cluster computing system.
+    digest: 08a33db8448f9bb97ddacb68a0ea47206e5fc11929bdf2f83cbdd46878f18b3a
+    home: https://github.com/bitnami/charts/tree/master/bitnami/spark
+    icon: https://bitnami.com/assets/stacks/spark/img/spark-stack-220x234.png
+    keywords:
+    - apache
+    - spark
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: spark
+    sources:
+    - https://github.com/bitnami/bitnami-docker-spark
+    - https://spark.apache.org/
+    urls:
+    - https://github.com/PlatformedTasks/PLAS-charts/releases/download/spark-6.0.0/spark-6.0.0.tgz
+    version: 6.0.0
+  tesk:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2022-01-27T15:28:22.833236579Z"
+    description: A TESK-EXILIR Helm chart for Kubernetes
+    digest: 83966a9a96247568412b1d19f39811afc3ac48354291a112bff5e956ad79b592
+    name: tesk
+    type: application
+    urls:
+    - https://github.com/PlatformedTasks/PLAS-charts/releases/download/tesk-1.0.0/tesk-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-01-27T15:28:21.850043023Z"
