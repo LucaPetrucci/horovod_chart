@@ -6,7 +6,7 @@ dependencies:
   tags:
   - bitnami-common
   version: 1.x.x
-description: A Helm chart for deploying a tailored version of Spark for PLAS platform
+description: Spark for PLAS platform
 home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/spark
 keywords:
 - plas
