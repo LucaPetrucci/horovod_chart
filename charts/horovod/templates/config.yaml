@@ -16,6 +16,7 @@ metadata:
     app: {{ template "horovod.fullname" . }}
 data:
   executor.config: |
+    localhost slots={{ $slots }}
     {{- range $i, $none := until (int $workerNum) }}
     {{ $name }}-{{ $i }}.{{ $name }} slots={{ $slots }}
     {{- end }}
