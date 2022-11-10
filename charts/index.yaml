@@ -3,10 +3,16 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
+<<<<<<< Updated upstream
     created: "2022-01-27T18:35:21.02089+01:00"
     description: A Helm chart for deploying a tailored version of Horovod for PLAS
       platform
     digest: 7056447743b364ef44f6d054aa21c1268dc6b7a85ae9fb870ff644b26411cf7f
+=======
+    created: "2022-11-10T16:42:12.142959048+01:00"
+    description: Horovod for PLAS platform
+    digest: c57efb46bfd5caa448af2c7da5cf78ff9fbdb796ee3450f3cbedd6cbaff8d72e
+>>>>>>> Stashed changes
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -16,6 +22,7 @@ entries:
     - https://github.com/PlatformedTasks/Documentation
     - https://github.com/uber/horovod
     urls:
+<<<<<<< Updated upstream
     - horovod-3.0.0.tgz
     version: 3.0.0
   spark:
@@ -60,3 +67,8 @@ entries:
     - tesk-1.0.0.tgz
     version: 1.0.0
 generated: "2022-01-27T18:35:21.020522+01:00"
+=======
+    - horovod-3.0.1.tgz
+    version: 3.0.1
+generated: "2022-11-10T16:42:12.142159334+01:00"
+>>>>>>> Stashed changes
