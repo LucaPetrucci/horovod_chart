@@ -1,9 +1,9 @@
 ---
 {{- $workerNum := .Values.worker.number -}}
 {{- $name := include "horovod.fullname" . }}
-{{- $slots := 1 }}
+{{- $slots := .Values.mpirun.np }}
 {{- if index .Values.resources "nvidia.com/gpu" }}
-{{- $slots := index .Values.resources "nvidia.com/gpu" }}
+{{- $slots = index .Values.resources "nvidia.com/gpu" }}
 {{- end }}
 apiVersion: v1
 kind: ConfigMap
@@ -16,7 +16,7 @@ metadata:
     app: {{ template "horovod.fullname" . }}
 data:
   executor.config: |
-    localhost slots={{ $slots }}
+    localhost slots=0
     {{- range $i, $none := until (int $workerNum) }}
     {{ $name }}-{{ $i }}.{{ $name }} slots={{ $slots }}
     {{- end }}
@@ -24,9 +24,9 @@ data:
 ---
 {{- $workerNum := .Values.worker.number -}}
 {{- $name := include "horovod.fullname" . }}
-{{- $slots := 1 }}
+{{- $slots := .Values.mpirun.np }}
 {{- if index .Values.resources "nvidia.com/gpu" }}
-{{- $slots := index .Values.resources "nvidia.com/gpu" }}
+{{- $slots = index .Values.resources "nvidia.com/gpu" }}
 {{- end }}
 apiVersion: v1
 kind: ConfigMap

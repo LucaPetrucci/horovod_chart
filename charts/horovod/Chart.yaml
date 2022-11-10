@@ -9,4 +9,4 @@ name: horovod
 sources:
 - https://github.com/PlatformedTasks/Documentation
 - https://github.com/uber/horovod
-version: 3.0.0
+version: 3.0.1

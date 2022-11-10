@@ -32,7 +32,10 @@ ssh:
     -----END RSA PRIVATE KEY-----
 
   hostKeyPub: |-
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5xSmkufXlOrwxQlZEq29g8wEX1APpSwexvN4JeNCsuecUYmomPTHqXTqU4vEg2Ad7rl1fZTrM8wDXjlqXaQi+Osh//f5ZWwgnzVEzV8Y/lYH1frJue7Amw/nWDo6ZthiapJen6F7jCls7TIv/z7CkkNfp2UkJufzfYYA+pq6/bIwIcDOQfG2uMRbw7kJJCs224hQBojt6z2gv3lkRajXbphrS4pFT4e4hclLCnsMS8vB+2dPXHtb6ObIxNkLPss5SdSbwI4VN0hreoETQKNhcM0XSCkCZokL8VJWE60UNvV1YMLFb5geZNhqlFYHBZzwoqB+fI4mbZ3rpeLwb2nih vagrant@master-node
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5xSmkufXlOrwxQlZEq29g8wEX1APpSwexvN4JeNCsuecUYmomPTHqXTqU4vEg2Ad7rl1fZTrM8wDXjlqXaQi+Osh//f5ZWwgnzVEzV8Y/lYH1frJue7Amw/nWDo6ZthiapJen6F7jCls7TIv/z7CkkNfp2UkJufzfYYA+pq6/bIwIcDOQfG2uMRbw7kJJCs224hQBojt6z2gv3lkRajXbphrS4pFT4e4hclLCnsMS8vB+2dPXHtb6ObIxNkLPss5SdSbwI4VN0hreoETQKNhcM0XSCkCZokL8VJWE60UNvV1YMLFb5geZNhqlFYHBZzwoqB+fI4mbZ3rpeLwb2nih
+
+mpirun:
+  np: 2
 
 resources: {}
 #  limits:
