@@ -3,7 +3,23 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-10T16:56:38.998744524+01:00"
+    created: "2022-11-14T16:23:08.068848193Z"
+    description: Horovod for PLAS platform
+    digest: 590d80df610d73c9f5c398ef723a1f125095be631c08a7f13dbfb96263f1c49b
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-3.0.2.tgz
+    version: 3.0.2
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-11-14T16:23:08.068408417Z"
     description: Horovod for PLAS platform
     digest: c57efb46bfd5caa448af2c7da5cf78ff9fbdb796ee3450f3cbedd6cbaff8d72e
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -19,7 +35,7 @@ entries:
     version: 3.0.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-10T16:56:38.997317586+01:00"
+    created: "2022-11-14T16:23:08.067782437Z"
     description: Horovod for PLAS platform
     digest: 2e557f0f55ea237a1816b534f8e3b8e6271dfd554523963a673260e2bfc459cc
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -36,7 +52,7 @@ entries:
   spark:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-11-10T16:56:39.005324065+01:00"
+    created: "2022-11-14T16:23:08.071184727Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -60,7 +76,7 @@ entries:
   tesk:
   - apiVersion: v2
     appVersion: dev
-    created: "2022-11-10T16:56:39.006297564+01:00"
+    created: "2022-11-14T16:23:08.071786405Z"
     description: A Helm chart for deploying a tailored version of TESK for PLAS platform
     digest: 640e3cc196638571a01642606003b8e36ee3b78d26ce6fa7451551044e77615a
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/tesk
@@ -74,4 +90,4 @@ entries:
     urls:
     - tesk-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-10T16:56:38.995500152+01:00"
+generated: "2022-11-14T16:23:08.067033636Z"
