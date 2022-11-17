@@ -1,7 +1,7 @@
 ---
 {{- $workerNum := .Values.worker.number -}}
 {{- $name := include "horovod.fullname" . }}
-{{- $slots := .Values.mpirun.np }}
+{{- $slots := .Values.worker.slots }}
 {{- if index .Values.resources "nvidia.com/gpu" }}
 {{- $slots = index .Values.resources "nvidia.com/gpu" }}
 {{- end }}
@@ -16,7 +16,7 @@ metadata:
     app: {{ template "horovod.fullname" . }}
 data:
   executor.config: |
-    localhost slots={{ $slots }}
+    localhost slots=0
     {{- range $i, $none := until (int $workerNum) }}
     {{ $name }}-{{ $i }}.{{ $name }} slots={{ $slots }}
     {{- end }}
@@ -24,7 +24,7 @@ data:
 ---
 {{- $workerNum := .Values.worker.number -}}
 {{- $name := include "horovod.fullname" . }}
-{{- $slots := .Values.mpirun.np }}
+{{- $slots := .Values.worker.slots }}
 {{- if index .Values.resources "nvidia.com/gpu" }}
 {{- $slots = index .Values.resources "nvidia.com/gpu" }}
 {{- end }}
@@ -39,7 +39,7 @@ metadata:
     app: {{ template "horovod.fullname" . }}
 data:
   hostfile.config: |
-    localhost slots={{ $slots }}
+    localhost slots=0
     {{- range $i, $none := until (int $workerNum) }}
     {{ $name }}-{{ $i }}.{{ $name }} slots={{ $slots }}
     {{- end }}
