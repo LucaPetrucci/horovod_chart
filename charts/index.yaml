@@ -3,9 +3,9 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-14T16:23:08.068848193Z"
+    created: "2022-11-17T15:56:20.580702223Z"
     description: Horovod for PLAS platform
-    digest: 590d80df610d73c9f5c398ef723a1f125095be631c08a7f13dbfb96263f1c49b
+    digest: dab6e83c5d9994507d7325f0cef9bbc9e45ef2424fad04abd427c96819812d3c
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -15,13 +15,13 @@ entries:
     - https://github.com/PlatformedTasks/Documentation
     - https://github.com/uber/horovod
     urls:
-    - horovod-3.0.2.tgz
-    version: 3.0.2
+    - horovod-3.6.4.tgz
+    version: 3.6.4
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-14T16:23:08.068408417Z"
+    created: "2022-11-17T15:56:20.580272713Z"
     description: Horovod for PLAS platform
-    digest: c57efb46bfd5caa448af2c7da5cf78ff9fbdb796ee3450f3cbedd6cbaff8d72e
+    digest: 7fd7156b2453dc90d6b8c55555d1f2e5b1011981a8f7c69a2c8663f26026749a
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -31,13 +31,13 @@ entries:
     - https://github.com/PlatformedTasks/Documentation
     - https://github.com/uber/horovod
     urls:
-    - horovod-3.0.1.tgz
-    version: 3.0.1
+    - horovod-3.6.3.tgz
+    version: 3.6.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-14T16:23:08.067782437Z"
+    created: "2022-11-17T15:56:20.579775798Z"
     description: Horovod for PLAS platform
-    digest: 2e557f0f55ea237a1816b534f8e3b8e6271dfd554523963a673260e2bfc459cc
+    digest: 441142d0a0d06f23e3fef91f4845003637b93abd88d068bfd709d03b662b4b3f
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -47,12 +47,76 @@ entries:
     - https://github.com/PlatformedTasks/Documentation
     - https://github.com/uber/horovod
     urls:
-    - horovod-3.0.0.tgz
-    version: 3.0.0
+    - horovod-3.6.2.tgz
+    version: 3.6.2
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-11-17T15:56:20.579209862Z"
+    description: Horovod for PLAS platform
+    digest: eee8a3e60027196eb8978b23942b68098a13f4182d839e1ed90329af04d41f98
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-3.6.1.tgz
+    version: 3.6.1
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-11-17T15:56:20.578617936Z"
+    description: Horovod for PLAS platform
+    digest: abad1e71c905f9db6d32b3bf7f1cbbd1715a494bfb9728dcfd9ccc4cfc2eaa5e
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-3.2.2.tgz
+    version: 3.2.2
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-11-17T15:56:20.578003708Z"
+    description: Horovod for PLAS platform
+    digest: b7c6dab211f6d30a902f722b3875899adcc1f3b0c2f8c255c614e9adb148cb9f
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-3.2.1.tgz
+    version: 3.2.1
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-11-17T15:56:20.577370331Z"
+    description: Horovod for PLAS platform
+    digest: 2a1d450b5f0409ec472086056d7063f69867e4538c11bb620a153df1cfc9bb35
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-3.1.1.tgz
+    version: 3.1.1
   spark:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-11-14T16:23:08.071184727Z"
+    created: "2022-11-17T15:56:20.583064682Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -76,7 +140,7 @@ entries:
   tesk:
   - apiVersion: v2
     appVersion: dev
-    created: "2022-11-14T16:23:08.071786405Z"
+    created: "2022-11-17T15:56:20.583719329Z"
     description: A Helm chart for deploying a tailored version of TESK for PLAS platform
     digest: 640e3cc196638571a01642606003b8e36ee3b78d26ce6fa7451551044e77615a
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/tesk
@@ -90,4 +154,4 @@ entries:
     urls:
     - tesk-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-14T16:23:08.067033636Z"
+generated: "2022-11-17T15:56:20.576500932Z"
