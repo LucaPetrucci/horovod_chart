@@ -67,7 +67,7 @@ spec:
       {{- if .Values.transferVolume }}
       - name: "transfer-volume"
         persistentVolumeClaim:
-          claimName: .Values.transferVolume.pvc
+          claimName: {{ .Values.transferVolume.pvc }}
       {{- end }}
       {{- if .Values.ssh.useSecrets }}
       - name: {{ template "horovod.fullname" . }}-secret
@@ -118,7 +118,7 @@ spec:
         {{- end }}
         {{- if .Values.transferVolume }}
         - name: "transfer-volume"
-          mountPath: .Values.transferVolume.containerBasePath
+          mountPath: {{ .Values.transferVolume.containerBasePath }}
         {{- end }}
 {{- if .Values.volumeMounts }}
 {{ toYaml .Values.volumeMounts | indent 8 }}
