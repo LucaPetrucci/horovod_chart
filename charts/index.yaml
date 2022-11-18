@@ -3,9 +3,9 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.580702223Z"
+    created: "2022-11-18T12:23:15.969210844Z"
     description: Horovod for PLAS platform
-    digest: dab6e83c5d9994507d7325f0cef9bbc9e45ef2424fad04abd427c96819812d3c
+    digest: bd5752f0b27aed3459f526e0a83d03b9e17bb698c108aec1c698f922f066fa6c
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -19,9 +19,9 @@ entries:
     version: 3.6.4
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.580272713Z"
+    created: "2022-11-18T12:23:15.968818885Z"
     description: Horovod for PLAS platform
-    digest: 7fd7156b2453dc90d6b8c55555d1f2e5b1011981a8f7c69a2c8663f26026749a
+    digest: c27c7697db384e194eb9afb1b8c3fada961e79add6c1ec5c4bde8d8260b0f288
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -35,9 +35,9 @@ entries:
     version: 3.6.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.579775798Z"
+    created: "2022-11-18T12:23:15.968375522Z"
     description: Horovod for PLAS platform
-    digest: 441142d0a0d06f23e3fef91f4845003637b93abd88d068bfd709d03b662b4b3f
+    digest: 20522f4161de8e11738822e1f0b000a9c37acedc197892ae1d25596a0bb68919
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -51,9 +51,9 @@ entries:
     version: 3.6.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.579209862Z"
+    created: "2022-11-18T12:23:15.967934114Z"
     description: Horovod for PLAS platform
-    digest: eee8a3e60027196eb8978b23942b68098a13f4182d839e1ed90329af04d41f98
+    digest: 872e56262c1969b5f1797956dee2b6583e42d584470219dae5a842da0e1d6bf8
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -67,9 +67,9 @@ entries:
     version: 3.6.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.578617936Z"
+    created: "2022-11-18T12:23:15.967148519Z"
     description: Horovod for PLAS platform
-    digest: abad1e71c905f9db6d32b3bf7f1cbbd1715a494bfb9728dcfd9ccc4cfc2eaa5e
+    digest: e6a1b138729784e21fdac228ed21cf88a720088b54eae75c77a79679e1e22b45
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -83,9 +83,9 @@ entries:
     version: 3.2.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.578003708Z"
+    created: "2022-11-18T12:23:15.966579717Z"
     description: Horovod for PLAS platform
-    digest: b7c6dab211f6d30a902f722b3875899adcc1f3b0c2f8c255c614e9adb148cb9f
+    digest: 8b0188ed800400acf0c7a67de52b2e60a02ba03660c07b4f7d8e406f56020b7c
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -99,9 +99,9 @@ entries:
     version: 3.2.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-17T15:56:20.577370331Z"
+    created: "2022-11-18T12:23:15.965937161Z"
     description: Horovod for PLAS platform
-    digest: 2a1d450b5f0409ec472086056d7063f69867e4538c11bb620a153df1cfc9bb35
+    digest: 8132992d1f1a7aad84d3df3e3b7a6362c8a23cc137a60be99fb51aea3832c137
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
     keywords:
     - plas
@@ -116,7 +116,7 @@ entries:
   spark:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-11-17T15:56:20.583064682Z"
+    created: "2022-11-18T12:23:15.971639147Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -140,7 +140,7 @@ entries:
   tesk:
   - apiVersion: v2
     appVersion: dev
-    created: "2022-11-17T15:56:20.583719329Z"
+    created: "2022-11-18T12:23:15.972417199Z"
     description: A Helm chart for deploying a tailored version of TESK for PLAS platform
     digest: 640e3cc196638571a01642606003b8e36ee3b78d26ce6fa7451551044e77615a
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/tesk
@@ -154,4 +154,4 @@ entries:
     urls:
     - tesk-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-17T15:56:20.576500932Z"
+generated: "2022-11-18T12:23:15.965064123Z"
