@@ -64,6 +64,11 @@ spec:
           - key: worker.run
             path: run.sh
             mode: 365
+      {{- if .Values.transferVolume }}
+      - name: "transfer-volume"
+      persistentVolumeClaim:
+        claimName: .Values.transferVolume.pvc
+      {{- end }}
       {{- if .Values.ssh.useSecrets }}
       - name: {{ template "horovod.fullname" . }}-secret
         secret:
@@ -110,6 +115,10 @@ spec:
         - name: {{ template "horovod.fullname" . }}-secret
           readOnly: true
           mountPath: "/etc/secret-volume"
+        {{- end }}
+        {{- if .Values.transferVolume }}
+        - name: "transfer-volume"
+        mountPath: .Values.transferVolume.containerBasePath
         {{- end }}
 {{- if .Values.volumeMounts }}
 {{ toYaml .Values.volumeMounts | indent 8 }}
