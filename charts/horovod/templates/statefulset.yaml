@@ -118,7 +118,7 @@ spec:
         {{- end }}
         {{- if .Values.transferVolume }}
         - name: "transfer-volume"
-          mountPath: {{ .Values.transferVolume.containerBasePath }}
+          mountPath: "/horovod/results"
         {{- end }}
 {{- if .Values.volumeMounts }}
 {{ toYaml .Values.volumeMounts | indent 8 }}
