@@ -3,7 +3,7 @@ entries:
   horovod:
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.549084869+01:00"
+    created: "2022-12-26T00:04:59.693871295+01:00"
     description: Horovod for PLAS platform
     digest: 08cd66cfdbf99ceb9b16f2e3886da0f9eb37e05ed22b79bea5ae85fdc66cdf41
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -19,7 +19,7 @@ entries:
     version: 3.6.4
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.54839398+01:00"
+    created: "2022-12-26T00:04:59.692546025+01:00"
     description: Horovod for PLAS platform
     digest: 1f708def1585e8f576f5781cb477a23a3f20dbd3a6a408fb2bbf7ff06ac6091c
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -35,7 +35,7 @@ entries:
     version: 3.6.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.547691181+01:00"
+    created: "2022-12-26T00:04:59.690866697+01:00"
     description: Horovod for PLAS platform
     digest: f50ef81a3397adec31b5af9d1acadb82bb859766901fae4874be7a2a1b6178f8
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -51,7 +51,7 @@ entries:
     version: 3.6.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.546992494+01:00"
+    created: "2022-12-26T00:04:59.687973895+01:00"
     description: Horovod for PLAS platform
     digest: 161b8d0a1d8cd815daef79607c6bee5d7a49e445e540d589acd7e1ff10470a76
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -67,7 +67,7 @@ entries:
     version: 3.6.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.546268589+01:00"
+    created: "2022-12-26T00:04:59.686974381+01:00"
     description: Horovod for PLAS platform
     digest: f3a1f24e3fa796933ba83f028c689263d8dca71b782f7d81b6d0fd14b96e3d1e
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -83,7 +83,7 @@ entries:
     version: 3.5.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.545538004+01:00"
+    created: "2022-12-26T00:04:59.685979338+01:00"
     description: Horovod for PLAS platform
     digest: 18e83a312b6af72247e363d9f5b8dc9774c17441196622b48847db96c83f8307
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -99,7 +99,7 @@ entries:
     version: 3.5.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.544806256+01:00"
+    created: "2022-12-26T00:04:59.684957344+01:00"
     description: Horovod for PLAS platform
     digest: 316d26b16c0f4c009962ef860285084d1ec43996c08149f441fc793b6dac0838
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -115,7 +115,7 @@ entries:
     version: 3.5.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.543796183+01:00"
+    created: "2022-12-26T00:04:59.683926044+01:00"
     description: Horovod for PLAS platform
     digest: 953bde0ab01549ea31825b4268d63d7ea4da079533f859ed3dff7d2936b5e604
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -131,7 +131,7 @@ entries:
     version: 3.4.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.54254562+01:00"
+    created: "2022-12-26T00:04:59.682900687+01:00"
     description: Horovod for PLAS platform
     digest: 93d1d7ca5d5c9a3d0ca8233776dcce88f88cf70d269a46d3d6b37f8a2f551bdd
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -147,7 +147,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.541434384+01:00"
+    created: "2022-12-26T00:04:59.681877654+01:00"
     description: Horovod for PLAS platform
     digest: 9373fb833b9ef293ef5fe4f981b24fb3fd9b54a7c4414658362f52c85d2affb1
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -163,7 +163,7 @@ entries:
     version: 3.4.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.540636082+01:00"
+    created: "2022-12-26T00:04:59.680864385+01:00"
     description: Horovod for PLAS platform
     digest: 175a50b1ce59317cb4cd0d9d47a8761dce0a9eec151fabe66982ed306c96d6af
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -179,7 +179,7 @@ entries:
     version: 3.3.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.539784971+01:00"
+    created: "2022-12-26T00:04:59.679849293+01:00"
     description: Horovod for PLAS platform
     digest: 8157210ca0bd5b14e77460e2d561d281010d1fb1ba33b4802baec28f0ca28bba
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -195,7 +195,7 @@ entries:
     version: 3.3.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.539054316+01:00"
+    created: "2022-12-26T00:04:59.678780732+01:00"
     description: Horovod for PLAS platform
     digest: 344765b103aa17952cf64ef3002d472a9d15051850ec546559a2c8b66cef66e2
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -211,7 +211,7 @@ entries:
     version: 3.3.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.538326919+01:00"
+    created: "2022-12-26T00:04:59.677863619+01:00"
     description: Horovod for PLAS platform
     digest: 02a5d081725e6ebe752cc37ecb2a834dc244ea75f036ccbda21b312a5e4d8ea5
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -227,7 +227,7 @@ entries:
     version: 3.2.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.53757382+01:00"
+    created: "2022-12-26T00:04:59.676913527+01:00"
     description: Horovod for PLAS platform
     digest: 64ec1b96c81ed4555b9f95689f9a86a093145f42febe9e21dd9f0015a5f087fe
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -243,7 +243,7 @@ entries:
     version: 3.2.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.536821045+01:00"
+    created: "2022-12-26T00:04:59.675773317+01:00"
     description: Horovod for PLAS platform
     digest: 50e6203d8461c6e9e9575ea8dead567e8aa5e5501376a4247e919d04299fdb34
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -259,7 +259,7 @@ entries:
     version: 3.2.1
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.536055713+01:00"
+    created: "2022-12-26T00:04:59.674346439+01:00"
     description: Horovod for PLAS platform
     digest: 287df19bdffb326655467085c48e06ddcda88e0df5fc0578eae8a2fcbe97a54b
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -275,7 +275,7 @@ entries:
     version: 3.1.3
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.535319484+01:00"
+    created: "2022-12-26T00:04:59.672893842+01:00"
     description: Horovod for PLAS platform
     digest: 4d40a8c75425845513fbc374f82a1cdba605215a84c1f9ea27292f49938a6d29
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -291,7 +291,7 @@ entries:
     version: 3.1.2
   - apiVersion: v1
     appVersion: 0.15.0
-    created: "2022-11-30T12:50:05.534589909+01:00"
+    created: "2022-12-26T00:04:59.671573558+01:00"
     description: Horovod for PLAS platform
     digest: e5d4f003482880fe74f88e886caea0f98feaedeb0e6d7e5216de9628b90db337
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
@@ -305,10 +305,61 @@ entries:
     urls:
     - horovod-3.1.1.tgz
     version: 3.1.1
+  horovod-gpu1:
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-12-26T00:04:59.695273639+01:00"
+    description: Horovod for PLAS platform
+    digest: ce6908c2dafd91012d7ba8a44a57dcdee2e5188a09609779516f3e86abaa12a5
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod-gpu1
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-gpu1-3.0.2.tgz
+    version: 3.0.2
+  horovod-gpu2:
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-12-26T00:04:59.696617808+01:00"
+    description: Horovod for PLAS platform
+    digest: 42dc9c3d7ab0d9e9f34da8a859be352f12696a241e313f79232e87c3dd808e51
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod-gpu2
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-gpu2-3.0.2.tgz
+    version: 3.0.2
+  horovod-gpu3:
+  - apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-12-26T00:04:59.697289268+01:00"
+    description: Horovod for PLAS platform
+    digest: 27c0dda7308c37b987f6f1c962fbaed40601188ad239e490ba949804088c9115
+    home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/horovod
+    keywords:
+    - plas
+    - horovod
+    name: horovod-gpu3
+    sources:
+    - https://github.com/PlatformedTasks/Documentation
+    - https://github.com/uber/horovod
+    urls:
+    - horovod-gpu3-3.0.2.tgz
+    version: 3.0.2
   spark:
   - apiVersion: v2
     appVersion: 3.2.0
-    created: "2022-11-30T12:50:05.552538483+01:00"
+    created: "2022-12-26T00:04:59.700615571+01:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -332,7 +383,7 @@ entries:
   tesk:
   - apiVersion: v2
     appVersion: dev
-    created: "2022-11-30T12:50:05.55354574+01:00"
+    created: "2022-12-26T00:04:59.701587976+01:00"
     description: A Helm chart for deploying a tailored version of TESK for PLAS platform
     digest: 640e3cc196638571a01642606003b8e36ee3b78d26ce6fa7451551044e77615a
     home: https://github.com/PlatformedTasks/PLAS-charts/tree/main/charts/tesk
@@ -346,4 +397,4 @@ entries:
     urls:
     - tesk-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-30T12:50:05.533665121+01:00"
+generated: "2022-12-26T00:04:59.669805964+01:00"
