@@ -87,6 +87,7 @@ spec:
       - name: worker
         image: "{{ .Values.worker.image.repository }}:{{ .Values.worker.image.tag }}"
         imagePullPolicy: {{ .Values.worker.image.pullPolicy }}
+        workingDir: {{ .Values.workingDir }}
         env:
         - name: SSHPORT
           value: "{{ .Values.ssh.port }}"
