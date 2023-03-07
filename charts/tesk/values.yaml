@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-host_name: "10.0.0.10" # FQDN to expose the application, we use the master-node IP address
+host_name: "192.168.100.137" # FQDN to expose the application, we use the master-node IP address
 # There are two options here: "openshift" or "kubernetes"
 clusterType: kubernetes
 
@@ -13,9 +13,11 @@ tesk:
     # if empty - default base path
     # For backwards compatibility with TES 0.3 - old base bath
     tes_api_base_path: /v1
-    image: platformedtasks/plas-tesk-api:latest
+    image: platformedtasks/plas-tesk-api-v1-2:latest
     port: 8080
+    taskmaster_image_name: platformedtasks/plas-taskmaster
     taskmaster_image_version: latest
+    taskmaster_filer_image_name: elixircloud/tesk-core-filer
     taskmaster_filer_image_version: v0.10.0
     debug: false
     executor_retries: 1
@@ -53,7 +55,7 @@ ftp:
     # Put the IP under which your pods see see services running on your host (differs depending on the way you installes K8s)
     # For virtualBox, it is 192.168.99.1 and your ftp service will be visible under ftp name
     # You will be able to use it like this: ftp://ftp/file
-    hostip: 10.0.0.10
+    hostip: "192.168.100.137"
 
 #
 # Configure this, only if you choose "kubernetes" as "clusterTYpe"
